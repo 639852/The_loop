@@ -312,6 +312,10 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
     color: #fff;
 }
 
+.collection-btn:hover {
+	background: #CB9F81;
+}
+
 .examples {
 	display: flex;
 	flex-wrap: wrap;
@@ -363,6 +367,11 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 	padding: 18px 30px;
 }
 
+.new_models-btn:hover {
+	background: #CB9F81;
+	text-decoration: none;
+}
+
 .gifts {
 	color: #fff;
 	background: #212121;
@@ -390,6 +399,10 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 	color: #fff;
 	background: #d7b399;
 	text-transform: uppercase;
+}
+
+.gifts-btn:hover {
+	background: #CB9F81;
 }
 
 .footer {
