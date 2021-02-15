@@ -16,6 +16,7 @@ body {
 a {
 	color: #212121;
 	font-weight: 500;
+	transition: .3s;
 }
 
 h1 {
@@ -399,6 +400,7 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 	color: #fff;
 	background: #d7b399;
 	text-transform: uppercase;
+	transition: .3s;
 }
 
 .gifts-btn:hover {
