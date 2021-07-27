@@ -218,7 +218,7 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 }
 
 .header-slider-link:hover {
-	margin-top: 20px;
+	transform: translateY(5px);
 	box-shadow: 0 0 0 #CB9F81;
 	text-decoration: none;
 	background: #CB9F81;
@@ -436,8 +436,8 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 	width: 690px;
 }
 
-.sub-block-footer {
-	margin: 0 0 15px 15px;
+.sub-block-footer *:last-child {
+	margin-bottom: 0;
 }
 
 .sub-block-footer span {
@@ -514,7 +514,7 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 		width: 220px;
 		height: 100%;
 		overflow: auto;
-		transform: translate(-100%, 10.5%);
+		transform: translate(-100%, 73px);
 		font-size: 20px;
 		z-index: 3;
 		transition: 1s;
@@ -533,7 +533,7 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 		margin-top: 5px;
 	}
 	.active-content {
-		transform: translate(0%, 10.5%);
+		transform: translate(0%, 73px);
 		background: #D7B399;
 	}
 	body.lock {
@@ -573,10 +573,10 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 		width: 160px;
 	}
 	.burger-content {
-		transform: translate(-100%, 9.4%);
+		transform: translate(-100%, 65px);
 	}
 	.active-content {
-		transform: translate(0%, 9.4%);
+		transform: translate(0%, 65px);
 	}
 	.delivery {
 		padding: 40px 0 30px;
@@ -593,10 +593,10 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 	.header-top>.container>a:nth-child(4) img {
 		width: 135px;
 	}.burger-content {
-		transform: translate(-100%, 8.7%);
+		transform: translate(-100%, 60px);
 	}
 	.active-content {
-		transform: translate(0%, 8.7%);
+		transform: translate(0%, 60px);
 	}
 	.slide-wrapper {
 		text-align: center;
@@ -610,6 +610,11 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 	}
 	.header-slider-price img {
 		margin-top: -75px;
+	}
+	.block-footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 25px;
 	}
 }
 
@@ -626,5 +631,9 @@ body.mouse .sub-menu-list>li:hover .sub-sub-menu-list {
 	}
 	.block-collection p {
 		width: 165px;
+	}
+	.footer-logo p,
+	.sub-block-footer a{
+		font-size: 12px;
 	}
 }
